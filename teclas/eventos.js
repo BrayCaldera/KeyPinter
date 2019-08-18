@@ -13,7 +13,7 @@ var papelito = cuadrito.getContext("2d");
 var x = 150;
 var y = 150;
 
-dibujarLinea(colorcito, x-1, y-1, x+1, y+1, papelito)
+//dibujarLinea(colorcito, x-1, y-1, x+1, y+1, papelito)
 
 function dibujarLinea(color, xInicial, yInicial, xFinal, yFinal, lienzo) {
     lienzo.beginPath();
@@ -28,7 +28,7 @@ function dibujarLinea(color, xInicial, yInicial, xFinal, yFinal, lienzo) {
 function dibujarTeclado(evento)
 {
     var colorcito = "#AAF"
-    var movimiento = 1;
+    var movimiento = 10;
 
     switch(evento.keyCode)
     {
